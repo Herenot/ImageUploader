@@ -1,0 +1,19 @@
+.DandD{
+    height: 100%;
+}
+.area{
+    background-color: #99cefa21;
+    height: 100%;
+    width: 20rem;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #3f98f0c7;
+    border-width: 2px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+span{
+    color: #808080;
+    text-align: center;
+}

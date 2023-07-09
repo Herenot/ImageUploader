@@ -1,0 +1,21 @@
+#main {
+    min-height: 98vh;
+    min-width: 96vw;
+    position: relative;
+}
+
+
+#loading {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 20vh;
+    min-width: 30vw;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}

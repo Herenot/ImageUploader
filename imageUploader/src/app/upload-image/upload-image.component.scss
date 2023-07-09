@@ -1,0 +1,77 @@
+#main {
+    min-height: 98vh;
+    min-width: 96vw;
+    position: relative;
+}
+
+#upload {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 4fr 0.75fr 1fr;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 75vh;
+    min-width: 30vw;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+#title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #808080;
+}
+
+#title2{
+    text-align: center;
+    font-size: 15px;
+    color: #808080;
+}
+
+#title3{
+    text-align: center;
+    font-size: 15px;
+    color: #a9a9a9;
+}
+
+.button-1 {
+    background-color: #318CE7;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 12rem;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #3f97f0;
+  }
+
+  .children{
+    display: flex;
+    justify-content: center;
+  }
